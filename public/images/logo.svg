@@ -1,0 +1,71 @@
+<svg width="42" height="50" viewBox="0 0 42 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1593 -4787)">
+<rect x="1593" y="4787" width="42" height="50" fill="#E5E5E5"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 1563 4762L 3003 4762L 3003 5786L 1563 5786L 1563 4762Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Home" clip-path="url(#clip-0)">
+<path d="M 1563 4762L 3003 4762L 3003 5786L 1563 5786L 1563 4762Z" fill="#FFFFFF"/>
+<g id="header">
+<g id="Rectangle" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(1563 4762)" fill="#FFFFFF"/>
+</g>
+<g id="logo">
+<g id="Mask Group">
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(1593.2 4787.4)" fill="#333333"/>
+<use xlink:href="#path2_fill" transform="translate(1593.2 4787.4)" fill="#333333"/>
+</g>
+</mask>
+<g id="Group 3" mask="url(#mask0_alpha)">
+<g id="Vector 2">
+<use xlink:href="#path3_fill" transform="translate(1589.76 4816.23)" fill="#EB4CA8"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path4_fill" transform="translate(1586.92 4786.4)" fill="#7650C3"/>
+</g>
+</g>
+</g>
+<g id="Group 2">
+<g id="Group">
+<g id="Ellipse">
+<use xlink:href="#path5_fill" transform="translate(1606.17 4798.29)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path5_fill" transform="translate(1618 4798.29)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Group">
+<g id="Ellipse">
+<use xlink:href="#path5_fill" transform="translate(1606.17 4806.24)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path5_fill" transform="translate(1618 4806.24)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="1562" y="4762" width="1442" height="102" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.878431 0 0 0 0 0.878431 0 0 0 0 0.878431 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 0L 1440 0L 1440 100L 0 100L 0 0Z"/>
+<path id="path1_fill" d="M 0 30.4183C 0 19.5225 0.810366 0 19.854 0C 38.8976 0 38.9989 20.4637 39.5053 28.6038L 0 30.4183Z"/>
+<path id="path2_fill" d="M 21.6773 49.3952C 21.0695 49.3952 20.3111 48.4184 19.3813 47.4153C 17.4229 44.4556 1.82914 35.9879 1.82914 31.4516L 41.3228 29.6371C 41.3287 33.7702 26.033 44.0524 23.9733 47.4153C 23.0435 48.4184 22.3864 49.3952 21.6773 49.3952Z"/>
+<path id="path3_fill" d="M 50.2427 0L 0 2.72177L 16.3086 26.4113C 25.2902 26.0417 44.0434 25.121 47.2038 24.3952C 50.3642 23.6694 50.5466 7.8293 50.2427 0Z"/>
+<path id="path4_fill" d="M 58.5489 29.2339L 0 32.1573L 2.83628 0L 53.4842 0.604839L 58.5489 29.2339Z"/>
+<path id="path5_fill" d="M 1.74021 0.864055C 1.74021 1.34126 1.35065 1.72811 0.870105 1.72811C 0.389559 1.72811 0 1.34126 0 0.864055C 0 0.386851 0.389559 0 0.870105 0C 1.35065 0 1.74021 0.386851 1.74021 0.864055Z"/>
+</defs>
+</svg>

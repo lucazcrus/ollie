@@ -1,0 +1,112 @@
+@import 'colors';
+
+.navbar{
+    width: calc(100% - 30px);
+    height: 100px;
+    background: $default-bg;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-bottom: 1px solid $default-border;
+
+    .left{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        .logotipo{
+            display: block;
+            width: 41.53px;
+            height: 50px;
+            background-image: url('../images/logo.svg');
+        }
+
+        .search{
+            position: relative;
+            padding-left: 30px;
+            .searchInput{
+                width: 400px;
+                height: 50px;
+                border: 1px solid $default-border;
+                padding-left: 15px;
+                color: $default-input-color-active;
+                outline: none;
+                &::placeholder{
+                    color: $default-input-color;
+                }
+            }:hover{
+                border-color: $default-color-brand;
+                outline: $default-color-brand;
+                }
+            .searchButton{
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                .icon{
+                    stroke: #E0E0E0;
+                }:hover{
+                    stroke: $default-color-brand;
+                }
+            }
+        }
+    }
+
+    .rigth{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding-right: 30px;
+        align-items: center;
+        position: relative;
+
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding-right: 30px;
+
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                color: $default-text-color;
+                padding: 0px 15px;
+            }:hover{
+                color: $default-color-brand-second;
+            }
+        }
+        .drop-profile{
+            display: none;
+            position: absolute;
+            width: 250px;
+            height: auto;
+            border-left: 1px solid $default-border;
+            border-right: 1px solid $default-border;
+            flex-direction: column;
+            justify-content: flex-start;
+            right: 30px;
+            top: 75px;
+
+            a{
+                height: 50px;
+                border-bottom: 1px solid $default-border;
+                display: flex;
+                align-items: center;
+                padding-left: 15px;
+                font-weight: 400;
+                color: $default-text-color;
+            }:hover{
+                color: $default-color-brand-second;
+            }
+        }
+        .photo-profile{
+            width: 50px;
+            height: 50px;
+            img{
+                border-radius: 50%;
+            }
+        }:hover{
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Exo+2:300,400,600");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+.navbar {
+  width: calc(100% - 30px);
+  height: 100px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  border-bottom: 1px solid #E0E0E0; }
+  .navbar .left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row; }
+    .navbar .left .logotipo {
+      display: block;
+      width: 41.53px;
+      height: 50px;
+      background-image: url("../images/logo.svg"); }
+    .navbar .left .search {
+      position: relative;
+      padding-left: 30px; }
+      .navbar .left .search .searchInput {
+        width: 400px;
+        height: 50px;
+        border: 1px solid #E0E0E0;
+        padding-left: 15px;
+        color: #4F4F4F;
+        outline: none; }
+        .navbar .left .search .searchInput::placeholder {
+          color: #BDBDBD; }
+      .navbar .left .search :hover {
+        border-color: #7650C3;
+        outline: #7650C3; }
+      .navbar .left .search .searchButton {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px; }
+        .navbar .left .search .searchButton .icon {
+          stroke: #E0E0E0; }
+        .navbar .left .search .searchButton :hover {
+          stroke: #7650C3; }
+  .navbar .rigth {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-right: 30px;
+    align-items: center;
+    position: relative; }
+    .navbar .rigth .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      padding-right: 30px; }
+      .navbar .rigth .menu a {
+        text-decoration: none;
+        font-weight: 600;
+        color: #828282;
+        padding: 0px 15px; }
+      .navbar .rigth .menu :hover {
+        color: #EB4CA8; }
+    .navbar .rigth .drop-profile {
+      display: none;
+      position: absolute;
+      width: 250px;
+      height: auto;
+      border-left: 1px solid #E0E0E0;
+      border-right: 1px solid #E0E0E0;
+      flex-direction: column;
+      justify-content: flex-start;
+      right: 30px;
+      top: 75px; }
+      .navbar .rigth .drop-profile a {
+        height: 50px;
+        border-bottom: 1px solid #E0E0E0;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        font-weight: 400;
+        color: #828282; }
+      .navbar .rigth .drop-profile :hover {
+        color: #EB4CA8; }
+    .navbar .rigth .photo-profile {
+      width: 50px;
+      height: 50px; }
+      .navbar .rigth .photo-profile img {
+        border-radius: 50%; }
+    .navbar .rigth :hover {
+      cursor: pointer; }
+
+/*
+    TIPOGRAPHY
+*/
+body {
+  font-size: 14px;
+  overflow-x: hidden;
+  font-family: 'Exo 2', sans-serif; }
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #828282; }
+
+/*
+    DIMENSIONS
+*/
+.baseGrid {
+  max-width: 1240px;
+  margin: 0 auto; }
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center; }
